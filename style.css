@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+.logo{
+    background-color: rgb(46, 46, 73);
+    color: white;
+    padding: 40px 100px 100px 100px;
+}
+nav h1{
+    font-size: 26px;
+}
+.link{
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.second h1{
+    font-weight: 1000;
+}
+.second p{
+    font-size: 13px;
+    opacity: 0.8;
+    margin: 15px 0;
+}
+button{
+    background-color: rgb(71, 71, 252);
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.random{
+    text-align: center;
+    margin: 20px 100px 100px 100px;
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 50px;
+}
+.first p{
+    width: 150px;
+}
+.god h1{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.god h4{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 280px;
+}
+.god{
+    background-color: rgb(211, 210, 210);
+    padding: 80px;
+}
+.time{
+    background-color: rgb(6, 120, 185);
+    color: white;
+    margin: 50px 150px;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.time h5{
+    font-size: 16px;
+    opacity: 0.9;
+}
+.time p{
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 5px;
+}
+
+.time button{
+    border: 1px solid white;
+}
+footer{
+    background-color: rgb(46, 46, 73);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+}
+span{
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 1px;
+}
